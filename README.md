@@ -36,7 +36,6 @@ cd lab01\data
 py ..\src\step9.py
 ```
 
-Результати (CSV) зберігайте в `lab01/results/`, рисунки для звіту в `lab01/figures/`, звіт у PDF в `lab01/report/`.
 
 ## Дані
 
