@@ -43,4 +43,3 @@ py ..\src\step9.py
 Зображення (`*.jpg`, `*.png`) у репозиторій не потрапляють (див. `.gitignore`). Для lab01 потрібні файли:
 `photo.jpg`, `day.jpg`, `lamp.jpg`, `day_mask.png`, `lamp_mask.png`, `texture.jpg`.
 
-Посилання на дані: (додайте посилання на хмарну папку)
