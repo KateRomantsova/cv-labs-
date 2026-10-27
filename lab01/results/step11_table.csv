@@ -1,0 +1,3 @@
+space,iou_frame1,iou_frame2,drop,kept_percent
+RGB,0.5255,0.2845,0.2410,54.1
+HSV,0.6268,0.3880,0.2388,61.9
