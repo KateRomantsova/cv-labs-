@@ -36,3 +36,9 @@ def harris(gray, sigma=SIGMA, k=K):
     ixx, iyy, ixy = compute_products(ix, iy)      # спочатку квадрати
     a, b, c = smooth(ixx, sigma), smooth(iyy, sigma), smooth(ixy, sigma)  # потім згладжування
     return harris_response(a, b, c, k)
+
+def harris_box(gray, block_size=7, k=K):
+    ix, iy = compute_derivatives(gray)
+    ixx, iyy, ixy = compute_products(ix, iy)
+    a, b, c = (cv2.blur(m, (block_size, block_size)) for m in (ixx, iyy, ixy))
+    return harris_response(a, b, c, k)
